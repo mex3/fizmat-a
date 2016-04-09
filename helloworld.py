@@ -1,6 +1,5 @@
 while a:
   print ("Hello world! Your beaty is unforgettable! What's your name, my dear friend?")
-  a=input()
   print("Such a pretty name, "+a+" !Do you want to continue our conversation, darling?")
   b=input()
   if b.find("No")>-1 or b.find("no")>-1:
