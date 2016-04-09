@@ -8,5 +8,5 @@ while a>b:
     break
   else:
     b+=1#Следующий Делитель
-    ans = 1"YES"#Ответ
+    ans = "YES"#Ответ
 print(c)#Вывод ответа
