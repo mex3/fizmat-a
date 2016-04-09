@@ -1,6 +1,7 @@
-#http://informatics.mccme.ru/mod/statements/view3.php?chapterid=424#1
+﻿#http://informatics.mccme.ru/mod/statements/view3.php?chapterid=424#1
 d, k, l = map(int, input().split())
 #print(d,k,l)
+
 j = []
 h = 1 #счёт дней недели
 z = 0 #счёт дней месяца
