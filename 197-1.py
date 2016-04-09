@@ -1,4 +1,5 @@
-l = int(input())
+l = int(input())                        
+
 x = y = list(map(int, input().split()))
 m = []
 a = list(range(l, 0, -1))
