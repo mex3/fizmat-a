@@ -1,4 +1,4 @@
-# fizmat-v
+# fizmat-a
 Инструкция по работе с git
 
 Скачиваем git под Windows:
