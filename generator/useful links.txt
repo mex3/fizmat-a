@@ -1,0 +1,4 @@
+Работа с регулярными выражениями:
+https://docs.python.org/3/library/re.html
+На русском немного: http://snakeproject.ru/rubric/article.php?art=python_reg_exp
+Операции со строками: http://pythonworld.ru/tipy-dannyx-v-python/stroki-funkcii-i-metody-strok.html
