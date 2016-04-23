@@ -1,6 +1,7 @@
 a, b = map(int, input().split())
 d=[]
 e=[]
+
 for c in range(a):
     i=list(map(int, input().split()))
     e.append(sum(i))
