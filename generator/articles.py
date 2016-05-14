@@ -25,4 +25,4 @@ for c in input_file:
             sen+=1
             break
     if a=="No":
-        print("See you, darling!Your game was absolutly brilliant! Your score: "+score+"/"+sen)
+        print("See you, darling!Your game was absolutly brilliant! Your score: "+str(score)+"/"+str(sen))
