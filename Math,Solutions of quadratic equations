@@ -13,7 +13,7 @@ while 1:
         D = a[1] * a[1] - 4 * a[0] * a[2]
         print('D =',D)
         if D>0:
-            print('('-a[1], "- sqrt("D") ) /", 2 * a[0], '; (', -a[1], "+ sqrt(", D, ") ) /", 2 * a[0])
+            print('(',-a[1], "- sqrt(", D, ") ) /", 2 * a[0], '; (', -a[1], "+ sqrt(", D, ") ) /", 2 * a[0])
         else:
             if D == 0:
                 print('sqrt(', a[2]/a[0], ')')
