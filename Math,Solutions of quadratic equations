@@ -1,6 +1,6 @@
 while 1:
-    print("Wellcome to the ьath assister! Please, enter a, b, c(ax^2 + bx + c)")
-    a = input().split()     
+    print("Wellcome to the Math assister! Please, enter a, b, c(ax^2 + bx + c = 0)")
+    a = list(map(int,input().split()))     
     if a[0] == 0:
         if a[1] == 0:
             if a[2] == 0:
@@ -10,15 +10,18 @@ while 1:
         else:
             print(a[2]/a[1])
     else:
-        D = (2*a[1])^2 - 4*a[0]*a[2]
+        D = a[1] * a[1] - 4 * a[0] * a[2]
+        print('D =',D)
         if D>0:
-            print('('-a[1], "- sqrt(D) ) /", 2*a[0], '; ('-a[1], "+ sqrt(D) ) /", 2*a[0])
+            print('('-a[1], "- sqrt("D") ) /", 2 * a[0], '; (', -a[1], "+ sqrt(", D, ") ) /", 2 * a[0])
         else:
             if D == 0:
-                print(-a[1]/(2*a[1]))
+                print('sqrt(', a[2]/a[0], ')')
             else:
                 print('ø')
     print('Something else? Enter "Yes" to continue, or "No" to exit.')
-    if input() >< "Yes":
+    if input() == "Yes":
+        print('Restarting...')
+    else:
         break
 print("Goodby!")
